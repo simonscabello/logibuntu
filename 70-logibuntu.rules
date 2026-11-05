@@ -1,0 +1,2 @@
+# Let the logged-in user talk HID++ to Logitech devices (needed by logibuntu without root).
+KERNEL=="hidraw*", ATTRS{idVendor}=="046d", TAG+="uaccess"

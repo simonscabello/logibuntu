@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Logibuntu
+Comment=Configurar mouse e headset Logitech G
+Exec=logibuntu
+Icon=io.github.logibuntu
+Terminal=false
+Categories=Settings;HardwareSettings;
+Keywords=logitech;mouse;dpi;headset;g hub;
+StartupWMClass=io.github.logibuntu

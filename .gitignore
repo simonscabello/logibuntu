@@ -1,0 +1,4 @@
+# Logitech's proprietary installer, only used for the analysis; never redistribute it.
+*.exe
+__pycache__/
+dist/
