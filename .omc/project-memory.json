@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1793918264953,
+  "projectRoot": "/home/scabello/projetos/logibuntu",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs",
+      "tests"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "data": {
+      "path": "data",
+      "purpose": "Data files",
+      "fileCount": 2,
+      "lastAccessed": 1793918264948,
+      "keyFiles": [
+        "io.github.logibuntu.desktop",
+        "io.github.logibuntu.svg"
+      ]
+    },
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 1,
+      "lastAccessed": 1793918264951,
+      "keyFiles": [
+        "logibuntu_0.1.0_all.deb"
+      ]
+    },
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 2,
+      "lastAccessed": 1793918264951,
+      "keyFiles": [
+        "headset.png",
+        "mouse.png"
+      ]
+    },
+    "logibuntu": {
+      "path": "logibuntu",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1793918264952,
+      "keyFiles": [
+        "__init__.py",
+        "__main__.py",
+        "app.py",
+        "devices.py",
+        "hidpp.py"
+      ]
+    },
+    "packaging": {
+      "path": "packaging",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1793918264952,
+      "keyFiles": [
+        "build-deb.sh"
+      ]
+    },
+    "tests": {
+      "path": "tests",
+      "purpose": "Test files",
+      "fileCount": 1,
+      "lastAccessed": 1793918264952,
+      "keyFiles": [
+        "test_devices.py"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}

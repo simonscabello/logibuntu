@@ -33,7 +33,7 @@ Description: Configurador leve para mouses e headsets Logitech G
 CTRL
 # Reload udev so the uaccess rule applies to already-plugged devices.
 for s in postinst postrm; do
-  printf '#!/bin/sh\nset -e\nif command -v udevadm >/dev/null; then\n  udevadm control --reload || true\n  udevadm trigger --subsystem-match=hidraw --action=change || true\nfi\n' > "$ROOT/DEBIAN/$s"
+  printf '#!/bin/sh\nset -e\nif command -v udevadm >/dev/null; then\n  udevadm control --reload || true\n  udevadm trigger --subsystem-match=hidraw --action=change || true\nfi\ngtk-update-icon-cache -q -t -f /usr/share/icons/hicolor 2>/dev/null || true\n' > "$ROOT/DEBIAN/$s"
   chmod 755 "$ROOT/DEBIAN/$s"
 done
 

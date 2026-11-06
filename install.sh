@@ -9,6 +9,7 @@ sudo udevadm control --reload
 sudo udevadm trigger --subsystem-match=hidraw --action=change
 
 install -Dm644 "$DIR/data/io.github.logibuntu.svg" "$HOME/.local/share/icons/hicolor/scalable/apps/io.github.logibuntu.svg"
+gtk-update-icon-cache -q -t -f "$HOME/.local/share/icons/hicolor" 2>/dev/null || true
 mkdir -p "$HOME/.local/share/applications"
 sed "s#^Exec=.*#Exec=python3 -m logibuntu\nPath=$DIR#" "$DIR/data/io.github.logibuntu.desktop" \
   > "$HOME/.local/share/applications/io.github.logibuntu.desktop"
